@@ -71,7 +71,7 @@ const LandingPage = () => {
       </Carousel>
 
       {/* Banner */}
-      <img src="/banner.jpeg" className="w-full" />
+      <img src="/Banner3.png" className="w-2/3 mx-auto" />
 
       <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {/* card */}

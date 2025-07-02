@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useUser } from "@clerk/clerk-react";
-import { State } from "country-state-city";
+import { State, City } from "country-state-city";
 import { BarLoader } from "react-spinners";
 import useFetch from "@/hooks/use-fetch";
 
@@ -99,7 +99,7 @@ const JobListing = () => {
           </SelectTrigger>
           <SelectContent>
             <SelectGroup>
-              {State.getStatesOfCountry("IN").map(({ name }) => {
+              {State.getStatesOfCountry("CA").map(({ name }) => {
                 return (
                   <SelectItem key={name} value={name}>
                     {name}
