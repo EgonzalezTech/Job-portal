@@ -1,11 +1,13 @@
-# React + Vite
+# 🛍️ Job Portal | Modern Job Portal Platform Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[<img src="public/Banner3.png" target="_blank">](https://www.youtube.com)
 
-Currently, two official plugins are available:
+A full-stack e-commerce platform built with NextJS 15 and React 19, inspired by TEMU's design. This project demonstrates modern web development practices and an end-to-end e-commerce experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![React](https://img.shields.io/badge/React%2019-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev/)
+[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)](https://supabase.com/)
+[![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-%23171717?style=flat&logo=vercel&logoColor=white)](https://ui.shadcn.com/)
 
 ## Expanding the ESLint configuration
 
