@@ -10,12 +10,16 @@ const AppLayout = () => {
         <Header />
         <Outlet />
       </main>
-      <div className="p-10 text-center bg-gray-800 mt-10 animate-fadeIn">
-        Developed 💻 by{" "}
-        <span className="font-bold underline decoration-white underline-offset-4">
-          Edwin Gonzalez
-        </span>{" "}
-         &copy; {currentYear} All rights reserved.
+      <div className="p-10 bg-gray-800 mt-10 animate-fadeIn text-center">
+        <div className="inline-flex items-center justify-center gap-2">
+          <span>Developed 💻 by</span>
+          <img
+            src="/Logo_Edwin_White.png"
+            alt="Edwin Gonzalez Logo"
+            className="h-10 w-auto"
+          />
+          <span>&copy; {currentYear} All rights reserved.</span>
+        </div>
       </div>
     </div>
   );
