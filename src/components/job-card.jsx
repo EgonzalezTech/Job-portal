@@ -35,10 +35,12 @@ const JobCard = ({
   } = useFetch(saveJob);
 
   const handleSaveJob = async () => {
-    await fnSavedJob({
-      user_id: user.id,
-      job_id: job.id,
-    });
+    await fnSavedJob(
+      {
+        user_id: user.id,
+        job_id: job.id,
+      }
+    );
     onJobAction();
   };
 

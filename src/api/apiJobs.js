@@ -76,6 +76,15 @@ export async function saveJob(token, { alreadySaved }, saveData) {
       .delete()
       .eq("job_id", saveData.job_id);
 
+    /* 
+      const { data, error: deleteError } = await supabase
+    .from("jobs")
+    .delete()
+    .eq("id", job_id)
+    .select(); 
+    */
+    console.log(saveData.job_id);
+
     if (deleteError) {
       console.error("Error removing saved job:", deleteError);
       return data;
